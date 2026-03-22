@@ -2,6 +2,7 @@
 # Gradle & Build
 .gradle/
 build/
+.idea/
 *.apk
 *.aab
 *.hprof
