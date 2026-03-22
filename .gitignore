@@ -1,1 +1,7 @@
 .git
+# Gradle & Build
+.gradle/
+build/
+*.apk
+*.aab
+*.hprof
