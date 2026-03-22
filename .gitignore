@@ -2,7 +2,12 @@
 # Gradle & Build
 .gradle/
 build/
-.idea/
 *.apk
 *.aab
 *.hprof
+.idea/
+# But commit necessary team settings
+!.idea/codeStyles
+!.idea/inspectionProfiles
+!.idea/copyright
+
