@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_profile.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/item_session.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/item_session.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/item_class.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/item_class.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_splash.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_manage_class.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_manage_class.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_login.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_register.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_class_detail.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_class_detail.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_teacher_dashboard.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_teacher_dashboard.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_student_dashboard.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_student_dashboard.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_settings.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_attendance_history.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_attendance_history.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_scan_qr.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_scan_qr.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/item_session_attendance.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/item_session_attendance.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/item_attendance_record.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/item_attendance_record.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/activity_generate_qr.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/activity_generate_qr.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/dialog_join_class.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/dialog_join_class.xml"
+    },
+    {
+        "merged": "com.absentia.app-mergeDebugResources-62:/layout/activity_student_dashboard.xml",
+        "source": "com.absentia.app-main-65:/layout/activity_student_dashboard.xml"
+    },
+    {
+        "merged": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-mergeDebugResources-62:/layout/dialog_create_class.xml",
+        "source": "/home/plasma/.gradle/daemon/8.7/com.absentia.app-main-65:/layout/dialog_create_class.xml"
+    }
+]

@@ -1,0 +1,314 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.absentia.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:5:5-65
+11-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:6:5-66
+12-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:8:5-80
+14-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:8:22-77
+15    <uses-permission
+15-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:9:5-10:38
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+16-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:9:22-78
+17        android:maxSdkVersion="28" />
+17-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:10:9-35
+18
+19    <uses-feature
+19-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:12:5-85
+20        android:name="android.hardware.camera"
+20-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:12:19-57
+21        android:required="false" />
+21-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:12:58-82
+22    <uses-feature
+22-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:13:5-95
+23        android:name="android.hardware.camera.autofocus"
+23-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:13:19-67
+24        android:required="false" />
+24-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:13:68-92
+25
+26    <permission
+26-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.absentia.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.absentia.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+31
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+33        android:name="android.hardware.camera.front"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+36        android:name="android.hardware.camera.flash"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+39        android:name="android.hardware.screen.landscape"
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+40        android:required="false" />
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+41    <uses-feature
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+42        android:name="android.hardware.wifi"
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+43        android:required="false" />
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+44
+45    <application
+45-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:15:5-91:19
+46        android:name="com.absentia.app.AbsentiaApp"
+46-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:16:9-36
+47        android:allowBackup="true"
+47-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:17:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.12.0] /home/plasma/.gradle/caches/transforms-4/63d2d74fdec2d5ef6ea7708c85f588f7/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:icon="@mipmap/ic_launcher"
+51-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:18:9-43
+52        android:label="@string/app_name"
+52-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:19:9-41
+53        android:roundIcon="@mipmap/ic_launcher_round"
+53-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:20:9-54
+54        android:supportsRtl="true"
+54-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:21:9-35
+55        android:testOnly="true"
+56        android:theme="@style/Theme.Absentia" >
+56-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:22:9-46
+57        <activity
+57-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:25:9-34:20
+58            android:name="com.absentia.app.activities.SplashActivity"
+58-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:26:13-54
+59            android:exported="true"
+59-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:27:13-36
+60            android:screenOrientation="portrait"
+60-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:29:13-49
+61            android:theme="@style/Theme.Absentia.Splash" >
+61-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:28:13-57
+62            <intent-filter>
+62-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:30:13-33:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:31:17-69
+63-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:31:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:32:17-77
+65-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:32:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:36:9-39:40
+69            android:name="com.absentia.app.activities.LoginActivity"
+69-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:37:13-53
+70            android:exported="false"
+70-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:39:13-37
+71            android:screenOrientation="portrait" />
+71-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:38:13-49
+72        <activity
+72-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:41:9-44:40
+73            android:name="com.absentia.app.activities.RegisterActivity"
+73-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:42:13-56
+74            android:exported="false"
+74-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:44:13-37
+75            android:screenOrientation="portrait" />
+75-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:43:13-49
+76        <activity
+76-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:46:9-49:40
+77            android:name="com.absentia.app.activities.StudentDashboardActivity"
+77-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:47:13-64
+78            android:exported="false"
+78-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:49:13-37
+79            android:screenOrientation="portrait" />
+79-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:48:13-49
+80        <activity
+80-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:51:9-54:40
+81            android:name="com.absentia.app.activities.TeacherDashboardActivity"
+81-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:52:13-64
+82            android:exported="false"
+82-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:54:13-37
+83            android:screenOrientation="portrait" />
+83-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:53:13-49
+84        <activity
+84-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:56:9-59:40
+85            android:name="com.absentia.app.activities.ProfileActivity"
+85-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:57:13-55
+86            android:exported="false"
+86-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:59:13-37
+87            android:screenOrientation="portrait" />
+87-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:58:13-49
+88        <activity
+88-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:61:9-64:40
+89            android:name="com.absentia.app.activities.GenerateQRActivity"
+89-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:62:13-58
+90            android:exported="false"
+90-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:64:13-37
+91            android:screenOrientation="portrait" />
+91-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:63:13-49
+92        <activity
+92-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:66:9-69:40
+93            android:name="com.absentia.app.activities.ScanQRActivity"
+93-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:67:13-54
+94            android:exported="false"
+94-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:69:13-37
+95            android:screenOrientation="portrait" />
+95-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:68:13-49
+96        <activity
+96-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:71:9-74:40
+97            android:name="com.absentia.app.activities.AttendanceHistoryActivity"
+97-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:72:13-65
+98            android:exported="false"
+98-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:74:13-37
+99            android:screenOrientation="portrait" />
+99-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:73:13-49
+100        <activity
+100-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:76:9-79:40
+101            android:name="com.absentia.app.activities.ManageClassActivity"
+101-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:77:13-59
+102            android:exported="false"
+102-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:79:13-37
+103            android:screenOrientation="portrait" />
+103-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:78:13-49
+104        <activity
+104-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:81:9-84:40
+105            android:name="com.absentia.app.activities.ClassDetailActivity"
+105-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:82:13-59
+106            android:exported="false"
+106-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:84:13-37
+107            android:screenOrientation="portrait" />
+107-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:83:13-49
+108        <activity
+108-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:86:9-89:40
+109            android:name="com.absentia.app.activities.SettingsActivity"
+109-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:87:13-56
+110            android:exported="false"
+110-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:89:13-37
+111            android:screenOrientation="portrait" />
+111-->/home/plasma/AndroidStudioProjects/Absentia/app/src/main/AndroidManifest.xml:88:13-49
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+115            android:authorities="com.absentia.app.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.2.0] /home/plasma/.gradle/caches/transforms-4/e429a8cda49380e24d19ef1f0b59ffd9/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/plasma/.gradle/caches/transforms-4/82b6f22ac34b084d305aad1e9a84d62f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/plasma/.gradle/caches/transforms-4/82b6f22ac34b084d305aad1e9a84d62f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/plasma/.gradle/caches/transforms-4/82b6f22ac34b084d305aad1e9a84d62f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+123            <meta-data
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+125                android:value="androidx.startup" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+126        </provider>
+127
+128        <uses-library
+128-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+129            android:name="androidx.window.extensions"
+129-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+130            android:required="false" />
+130-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+131        <uses-library
+131-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+132            android:name="androidx.window.sidecar"
+132-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+133            android:required="false" />
+133-->[androidx.window:window:1.0.0] /home/plasma/.gradle/caches/transforms-4/cf618d0467861852f7227b761a0572f6/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+134
+135        <service
+135-->[androidx.room:room-runtime:2.6.1] /home/plasma/.gradle/caches/transforms-4/2bd23f776d107c4b9cb4e2c6a8d8f163/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+136            android:name="androidx.room.MultiInstanceInvalidationService"
+136-->[androidx.room:room-runtime:2.6.1] /home/plasma/.gradle/caches/transforms-4/2bd23f776d107c4b9cb4e2c6a8d8f163/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+137            android:directBootAware="true"
+137-->[androidx.room:room-runtime:2.6.1] /home/plasma/.gradle/caches/transforms-4/2bd23f776d107c4b9cb4e2c6a8d8f163/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+138            android:exported="false" />
+138-->[androidx.room:room-runtime:2.6.1] /home/plasma/.gradle/caches/transforms-4/2bd23f776d107c4b9cb4e2c6a8d8f163/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+139
+140        <receiver
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+141            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+142            android:directBootAware="false"
+142-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+143            android:enabled="true"
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+144            android:exported="true"
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+145            android:permission="android.permission.DUMP" >
+145-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+147                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+148            </intent-filter>
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+150                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+153                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+156                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/plasma/.gradle/caches/transforms-4/3791dc3f8e8abd83f55087802adede5d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+157            </intent-filter>
+158        </receiver>
+159
+160        <activity
+160-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+161            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+161-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+162            android:clearTaskOnLaunch="true"
+162-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+163            android:screenOrientation="sensorLandscape"
+163-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+164            android:stateNotNeeded="true"
+164-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+165            android:theme="@style/zxing_CaptureTheme"
+165-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+166            android:windowSoftInputMode="stateAlwaysHidden" />
+166-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/plasma/.gradle/caches/transforms-4/5a52319ce66a019e8f93edad7c4b0357/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+167    </application>
+168
+169</manifest>
